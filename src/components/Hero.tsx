@@ -7,7 +7,7 @@ import FadeInText from "./FadeInText";
 
 function Hero() {
   return (
-    <section className="relative px-6 flex flex-col items-center justify-center md:items-start lg:items-center xl:items-start gap-6 sm:gap-4 lg:text-center mx-auto lg:mx-8">
+    <section className="relative px-6 flex flex-col items-center justify-center md:items-start lg:items-center xl:items-start gap-6 sm:gap-4 lg:text-center mx-auto lg:mx-0">
       <FadeInText className="relative z-10 text-sm md:text-xl font-light text-center md:text-left md:-mb-16 lg:ml-10 xl:ml-2 w-8/10 sm:w-full">
         Africa’s{" "}
         <span className="relative">
@@ -33,10 +33,10 @@ function Hero() {
         </span>{" "}
         fastest growing fitness Chain..
       </FadeInText>
-      <div className="space-y-4 relative z-0">
+      <div className="space-y-4 lg:space-y-6 relative z-0">
         <StaggeredFade
           text="FORGE"
-          className="font-etna text-[7rem] sm:text-[12rem] md:text-[14rem] lg:text-[20rem] whitespace-nowrap tracking-[0.02em] lg:tracking-[0.04em] leading-40 sm:leading-50 md:leading-60 lg:leading-75 xl:leading-95 2xl:leading-100 lg:py-4 lg:pt-2 mx-auto lg:text-center text-gradient-custom"
+          className="font-etna text-[7rem] sm:text-[12rem] md:text-[14rem] lg:text-[20rem] xl:text-[22rem] whitespace-nowrap tracking-[0.02em] lg:tracking-[0.04em] leading-40 sm:leading-50 md:leading-60 lg:leading-75 xl:leading-80 2xl:leading-100 lg:py-6 lg:pt-2 mx-auto lg:text-center text-gradient-custom"
         />
         <FadeInText className="sm:text-center md:text-left md:text-xl ml-1 lg:ml-2">
           24/7 Access Walk-in Fighting Gym <br />

@@ -9,8 +9,8 @@ const contactCol1 = [
   },
   {
     icon: "mdi:phone-outline",
-    text: "+234 807 8205 271",
-    href: "tel:+2348078205271", // Phone link
+    text: "+234 807 8205 671",
+    href: "tel:+2348078205671", // Phone link
   },
 ];
 

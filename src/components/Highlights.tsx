@@ -121,7 +121,7 @@ function Highlights() {
             <motion.div
               key={index}
               variants={highlightItem}
-              className={`relative bg-cover bg-center h-60 md:h-100 w-full rounded-lg md:rounded-2xl ${bgClass} ${
+              className={`relative bg-cover bg-center h-60 md:h-100 xl:h-120 2xl:h-150 w-full rounded-lg md:rounded-2xl ${bgClass} ${
                 index === 2
                   ? "col-span-2 col-start-1 col-end-3 md:col-span-1"
                   : ""
