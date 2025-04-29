@@ -34,7 +34,7 @@ const container = {
   visible: {
     transition: {
       delay: 0.3,
-      staggerChildren: 0.5, // 👈 1s between each item
+      staggerChildren: 0.5, // delay between each item
     },
   },
 };
@@ -127,7 +127,7 @@ function Highlights() {
                   : ""
               }`}
             >
-              <p className="text-black bg-green text-center font-etna pb-2 sm:pb-3 sm:pt-1 w-9/10 sm:max-w-8/10 md:max-w-full rounded-full absolute bottom-2 left-1/2 -translate-x-1/2">
+              <p className="text-black bg-green text-center font-etna py-1 sm:py-2 w-9/10 sm:max-w-8/10 md:max-w-full rounded-full absolute bottom-2 left-1/2 -translate-x-1/2">
                 {highlight.title}
               </p>
             </motion.div>

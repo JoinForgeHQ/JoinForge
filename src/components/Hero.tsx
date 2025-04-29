@@ -38,7 +38,7 @@ function Hero() {
       <div className="space-y-4 lg:space-y-6 z-0">
         <StaggeredFade
           text="FORGE"
-          className="relative top-0 2x:ltop-8 font-etna text-[7rem] sm:text-[12rem] md:text-[14rem] lg:text-[20rem] xl:text-[22rem] whitespace-nowrap tracking-[0.02em] lg:tracking-[0.04em] lg:-my-12 mx-auto lg:text-center text-gradient-custom"
+          className="relative top-0 2x:ltop-8 font-etna text-[7rem] sm:text-[12rem] md:text-[14rem] lg:text-[20rem] xl:text-[22rem] whitespace-nowrap tracking-[0.02em] lg:tracking-[0.04em] lg:-my-12 xl:-my-16 mx-auto lg:text-center text-gradient-custom"
         />
         <FadeInText className="sm:text-center md:text-left md:text-xl ml-1 lg:ml-2">
           24/7 Access Walk-in Fighting Gym <br />
