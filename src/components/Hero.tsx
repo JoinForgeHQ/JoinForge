@@ -18,8 +18,8 @@ function Hero() {
             className="absolute -left-2 -right-2 -top-2 bottom-0 translate-y-1 svg-animation"
           >
             <motion.path
-              initial={{ pathLength: 0 }}
-              whileInView={{ pathLength: 1 }}
+              initial={{ strokeDasharray: 800, strokeDashoffset: 800 }}
+              whileInView={{ strokeDashoffset: 0 }}
               transition={{
                 delay: 1.7,
                 duration: 2.25,

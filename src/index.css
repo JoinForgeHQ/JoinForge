@@ -103,10 +103,5 @@
     );
   }
 }
-.svg-animation {
-  -webkit-transform: translateY(0.25rem); /* Safari */
-  -moz-transform: translateY(0.25rem); /* Firefox */
-  transform: translateY(0.25rem);
 
-}
 
