@@ -35,10 +35,10 @@ function Hero() {
         </span>{" "}
         fastest growing fitness Chain..
       </FadeInText>
-      <div className=" border-2 border-red-500 space-y-4 lg:space-y-6 z-0">
+      <div className="space-y-4 lg:space-y-6 z-0">
         <StaggeredFade
           text="FORGE"
-          className="relative top-0 2x:ltop-8 font-etna text-[7rem] sm:text-[12rem] md:text-[14rem] lg:text-[20rem] xl:text-[22rem] whitespace-nowrap tracking-[0.02em] lg:tracking-[0.04em] leading-15 sm:leading-20 md:leading-20 lg:leading-25 xl:leading-30 2xl:leading-32 pb-8 sm:pb-16 md:pb-20 lg:pb-32 2xl:pb-50 lg:pb-6 mx-auto lg:text-center text-gradient-custom"
+          className="relative top-0 2x:ltop-8 font-etna text-[7rem] sm:text-[12rem] md:text-[14rem] lg:text-[20rem] xl:text-[22rem] whitespace-nowrap tracking-[0.02em] lg:tracking-[0.04em] leading-25 sm:leading-30 md:leading-35 lg:leading-42 xl:leading-50 2xl:leading-52 pb-2 sm:pb-10 md:pb-14 lg:pb-20 xl:pb-24 2xl:pb-20 mx-auto lg:text-center text-gradient-custom"
         />
         <FadeInText className="sm:text-center md:text-left md:text-xl ml-1 lg:ml-2">
           24/7 Access Walk-in Fighting Gym <br />
