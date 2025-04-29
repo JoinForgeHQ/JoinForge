@@ -8,14 +8,14 @@ import FadeInText from "./FadeInText";
 function Hero() {
   return (
     <section className="relative px-6 flex flex-col items-center justify-center md:items-start lg:items-center xl:items-start gap-6 sm:gap-4 lg:text-center mx-auto lg:mx-0">
-      <FadeInText className="relative z-10 text-sm md:text-xl font-light text-center md:text-left md:-mb-16 lg:ml-10 xl:ml-2 w-8/10 sm:w-full">
+      <FadeInText className="relative z-10 text-sm md:text-xl font-light text-center md:text-left lg:ml-10 xl:ml-2 w-8/10 sm:w-full">
         Africa’s{" "}
         <span className="relative">
           martial arts{" "}
           <svg
             viewBox="0 0 286 73"
             fill="none"
-            className="absolute -left-2 -right-2 -top-2 bottom-0 translate-y-1"
+            className="absolute -left-2 -right-2 -top-2 bottom-0 translate-y-1 svg-animation"
           >
             <motion.path
               initial={{ pathLength: 0 }}
@@ -28,15 +28,17 @@ function Hero() {
               d="M142.293 1C106.854 16.8908 6.08202 7.17705 1.23654 43.3756C-2.10604 68.3466 29.5633 73.2652 122.688 71.7518C215.814 70.2384 316.298 70.689 275.761 38.0785C230.14 1.37835 97.0503 24.4575 52.9384 1"
               stroke="#FACC15"
               strokeWidth="3"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </span>{" "}
         fastest growing fitness Chain..
       </FadeInText>
-      <div className="space-y-4 lg:space-y-6 relative z-0">
+      <div className=" border-2 border-red-500 space-y-4 lg:space-y-6 z-0">
         <StaggeredFade
           text="FORGE"
-          className="font-etna text-[7rem] sm:text-[12rem] md:text-[14rem] lg:text-[20rem] xl:text-[22rem] whitespace-nowrap tracking-[0.02em] lg:tracking-[0.04em] leading-40 sm:leading-50 md:leading-60 lg:leading-75 xl:leading-80 2xl:leading-100 lg:py-6 lg:pt-2 mx-auto lg:text-center text-gradient-custom"
+          className="relative top-0 2x:ltop-8 font-etna text-[7rem] sm:text-[12rem] md:text-[14rem] lg:text-[20rem] xl:text-[22rem] whitespace-nowrap tracking-[0.02em] lg:tracking-[0.04em] leading-15 sm:leading-20 md:leading-20 lg:leading-25 xl:leading-30 2xl:leading-32 pb-8 sm:pb-16 md:pb-20 lg:pb-32 2xl:pb-50 lg:pb-6 mx-auto lg:text-center text-gradient-custom"
         />
         <FadeInText className="sm:text-center md:text-left md:text-xl ml-1 lg:ml-2">
           24/7 Access Walk-in Fighting Gym <br />
